@@ -106,6 +106,12 @@ export function ContactSection() {
         text : text,
         parse_mode : 'HTML'
       })
+
+      setName('')
+      setEmail('')
+      setMessage('')
+      setSubject('')
+
     } catch (error) {
       console.error('Error',error)
       throw error
